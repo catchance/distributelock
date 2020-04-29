@@ -1,0 +1,13 @@
+description = 'distributelock-spring-boot-starter'
+
+dependencies {
+    api project(":distributelock-spring-boot:distributelock-spring-boot-autoconfigure")
+}
+
+jar {
+    manifest {
+        attributes 'Automatic-Module-Name': 'spring.boot.starter'
+    }
+}
+
+
